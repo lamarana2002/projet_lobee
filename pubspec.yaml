@@ -1,0 +1,27 @@
+name: lobe
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  step_progress_indicator: ^1.0.2
+  flutter_svg: ^2.0.10+1
+  get: ^4.6.6
+  flutter_form_builder: ^9.4.1
+  flutter_pin_code_fields: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
